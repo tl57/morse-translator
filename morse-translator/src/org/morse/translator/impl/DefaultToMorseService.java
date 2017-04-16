@@ -17,7 +17,8 @@ public class DefaultToMorseService implements IToMorseService {
 
 	@Override
 	public void loadDictionary() {
-		// TODO Auto-generated method stub
+		if (!dictionary.isEmpty())
+			dictionary.clear();
 		
 	}
 
