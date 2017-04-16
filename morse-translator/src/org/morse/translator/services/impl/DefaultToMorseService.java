@@ -1,9 +1,9 @@
-package org.morse.translator.impl;
+package org.morse.translator.services.impl;
 
 import java.util.Map;
 import java.util.TreeMap;
 
-import org.morse.translator.api.IToMorseService;
+import org.morse.translator.services.IToMorseService;
 
 public class DefaultToMorseService implements IToMorseService {
 	

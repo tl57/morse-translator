@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: morse-translator
+Bundle-SymbolicName: morse-translator
+Bundle-Version: 1.0.0.qualifier
+Export-Package: org.morse.translator.api,
+ org.morse.translator.providers,
+ org.morse.translator.services.impl
+Import-Package: org.javatools.providers,
+ org.javatools.services,
+ org.javatools.utils

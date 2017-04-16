@@ -1,7 +1,7 @@
-package org.morse.translator.services;
+package org.morse.translator.providers;
 
-import org.morse.translator.api.IFromMorseService;
-import org.morse.translator.impl.DefaultFromMorseService;
+import org.morse.translator.services.IFromMorseService;
+import org.morse.translator.services.impl.DefaultFromMorseService;
 
 public class FromMorseServiceProvider {
 	
